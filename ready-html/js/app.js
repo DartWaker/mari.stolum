@@ -1,3 +1,12 @@
+  window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+    loader.style.display = "none";
+  });
+
+
+
+
+
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
 if (ScrollTrigger.isTouch !== 1) {
@@ -49,7 +58,4 @@ if (ScrollTrigger.isTouch !== 1) {
 
 }
 
-  window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
-    loader.style.display = "none";
-  });
+
